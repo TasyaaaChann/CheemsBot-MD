@@ -100,7 +100,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": ""}}}, { quoted: m})
         }
         
         const replay = (teks) => {
@@ -2489,7 +2489,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Group Menu",
-										"description": "Displays The List Of Group Features",
+										"description": "FITUR BISA DIGUNAKAN DI GRUP",
 										"rowId": `${prefix}grupmenu`
 									}
 								]
@@ -2499,47 +2499,47 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "All Menu",
-										"description": "Displays The List Of All The Features!",
+										"description": "SEMUA FITUR BOT",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "Download Menu",
-										"description": "Displays The List Of Download Features",
+										"description": "Download",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "Search Menu",
-										"description": "Displays The List Of Searching Features",
+										"description": "Search",
 										"rowId": `${prefix}searchmenu`
 									},
 										{
 											"title": "Image Menu",
-										"description": "Displays The List Of Image Features",
+										"description": "Image",
 										"rowId": `${prefix}imagemenu`
 										},
 										{
 											"title": "Fun Menu",
-										"description": "Displays The List Of Fun Features",
+										"description": "Game/Fun",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 											"title": "Convert Menu",
-										"description": "Displays The List Of Convert Features",
+										"description": "Stiker/Sebaliknya",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
 										"title": "Miscellaneous Menu",
-										"description": "Displays The List Of Miscellaneous Features",
+										"description": "Category",
 										"rowId": `${prefix}nocategorymenu`
 										},
 										{
 											"title": "Database Menu",
-										"description": "Displays The List Of Database Features",
+										"description": "Database",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
 											"title": "Voice Changer Menu",
-										"description": "Displays The List Of Voice Changing Features",
+										"description": "Pengubah Suara",
 										"rowId": `${prefix}voicemenu`
 										}
 								]
@@ -2549,7 +2549,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Anonymous Chat Menu",
-										"description": "Displays The List Of Anonymous Chat Features",
+										"description": "Khusus Hengkerr",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
 								]
@@ -2579,7 +2579,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Thanks To",
-										"description": "Displays The List Of Credit Of The Bot !!",
+										"description": "PEMILIK BOT Ｔａｓｙａ",
 										"rowId": `${prefix}tqtt`
 									}
 								]
